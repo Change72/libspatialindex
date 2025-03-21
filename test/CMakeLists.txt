@@ -16,7 +16,8 @@ set(SOURCES
         Generator
         RTreeBulkLoad
         RTreeLoad
-        RTreeQuery)
+        RTreeQuery
+        RTreeInsertAndQuery)
 
 
 foreach(test ${SOURCES})
